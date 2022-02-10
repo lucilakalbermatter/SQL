@@ -123,7 +123,7 @@ CREATE TABLE
 
 dci=# `INSERT INTO studentDetails VALUES ('Karl', 'Marx');`
 
-**ERROR:  relation "studentdetails" does not exist** --------> I was missing the schema' name
+**ERROR:  relation "studentdetails" does not exist** --------> I was missing the schema's name
 
 dci=# `INSERT INTO students.studentsDetails VALUES ('Karl', 'Marx');`
 
@@ -167,7 +167,7 @@ INSERT 0 1
 
 dci=# `INSERT INTO courses.coursesDetails VALUES ('Web_Design', '15-05-2022');`
 
-**ERROR:  date/time field value out of range: "15-05-2022"** ---------> the date format is: MMDDYYY (first month, day, year)
+**ERROR:  date/time field value out of range: "15-05-2022"** ---------> the date format was: MMDDYYY (first month, day, year)
 
 LINE 1: ...INTO courses.coursesDetails VALUES ('Web_Design', '15-05-202...
 
